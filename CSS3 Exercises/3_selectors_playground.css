@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: darkblue;
+}
+#mainHeader {
+    background-color: lightgray;
+}
+.eventCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+h3, p {
+    font-family: Verdana;
+}

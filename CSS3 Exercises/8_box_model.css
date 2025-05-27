@@ -1,0 +1,12 @@
+.eventCard {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #000;
+    outline: 2px dashed #f00;
+}
+.hidden {
+    visibility: hidden;
+}
+.removed {
+    display: none;
+}

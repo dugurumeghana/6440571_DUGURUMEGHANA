@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Event Handling</title></head>
+<body>
+<input type="text" id="search" placeholder="Search event">
+<select id="category">
+    <option>All</option><option>Music</option>
+</select>
+<button id="registerBtn">Register</button>
+<script>
+document.getElementById("registerBtn").onclick = () => alert("Registered");
+document.getElementById("category").onchange = e => alert("Filter: " + e.target.value);
+document.getElementById("search").onkeydown = e => console.log("Typing: " + e.key);
+</script>
+</body>
+</html>

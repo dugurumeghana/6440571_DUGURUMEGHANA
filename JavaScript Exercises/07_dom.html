@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM Manipulation</title></head>
+<body>
+<div id="events"></div>
+<script>
+const events = [{name:"Drama", seats:10}];
+const container = document.querySelector("#events");
+events.forEach(e => {
+    const div = document.createElement("div");
+    div.textContent = e.name + " - " + e.seats + " seats";
+    container.appendChild(div);
+});
+</script>
+</body>
+</html>
